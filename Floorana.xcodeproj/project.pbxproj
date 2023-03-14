@@ -87,8 +87,6 @@
 				4390C96F29BB39E300FDB2C3 /* Resources */,
 				4354CE0B27CA713D002CC259 /* Floorana.swift */,
 				4354CE1127CA713E002CC259 /* Preview Content */,
-				43A8CA7028174ADE00FD91EB /* CollectionDetailView.swift */,
-				4397585D28183E4600CE7720 /* TokenDetailView.swift */,
 			);
 			path = Floorana;
 			sourceTree = "<group>";
@@ -114,6 +112,7 @@
 		4390C97029BB3C5B00FDB2C3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				43E7EDCD29C0C10A0005D2B0 /* Detail */,
 				43E7EDC029C0A4AF0005D2B0 /* Extensions */,
 				43E7EDCA29C0A65F0005D2B0 /* Helpers */,
 				43E7EDC529C0A5600005D2B0 /* Home */,
@@ -167,6 +166,15 @@
 				43E7EDCB29C0A66E0005D2B0 /* ScaleButtonStyle.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		43E7EDCD29C0C10A0005D2B0 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				43A8CA7028174ADE00FD91EB /* CollectionDetailView.swift */,
+				4397585D28183E4600CE7720 /* TokenDetailView.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
