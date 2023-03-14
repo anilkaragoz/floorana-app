@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4354CE0C27CA713D002CC259 /* Floorana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4354CE0B27CA713D002CC259 /* Floorana.swift */; };
+		4354CE0E27CA713D002CC259 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4354CE0D27CA713D002CC259 /* HomeView.swift */; };
+		4354CE1027CA713E002CC259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4354CE0F27CA713E002CC259 /* Assets.xcassets */; };
+		4354CE1327CA713E002CC259 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4354CE1227CA713E002CC259 /* Preview Assets.xcassets */; };
+		437C0F6227F5FDA700B0ABC5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C0F6127F5FDA700B0ABC5 /* SettingsView.swift */; };
+		437C0F6427F6074700B0ABC5 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C0F6327F6074700B0ABC5 /* SettingsManager.swift */; };
+		437C0F6927F7579500B0ABC5 /* AddressInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C0F6827F7579500B0ABC5 /* AddressInputView.swift */; };
+		437C0F6C27F776EE00B0ABC5 /* Base58Swift in Frameworks */ = {isa = PBXBuildFile; productRef = 437C0F6B27F776EE00B0ABC5 /* Base58Swift */; };
+		437C0F6F27F9AF1300B0ABC5 /* Solana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C0F6E27F9AF1300B0ABC5 /* Solana.swift */; };
+		43802EA72816DE2D00BB8602 /* RefreshableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43802EA62816DE2D00BB8602 /* RefreshableScrollView.swift */; };
+		4397585E28183E4600CE7720 /* TokenDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4397585D28183E4600CE7720 /* TokenDetailView.swift */; };
+		43A8CA6F2816F66C00FD91EB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43A8CA6E2816F66C00FD91EB /* Launch Screen.storyboard */; };
+		43A8CA7128174ADE00FD91EB /* CollectionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8CA7028174ADE00FD91EB /* CollectionDetailView.swift */; };
+		43E7EDC229C0A4BD0005D2B0 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E7EDC129C0A4BD0005D2B0 /* Color.swift */; };
+		43E7EDC429C0A4F50005D2B0 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E7EDC329C0A4F50005D2B0 /* Numbers.swift */; };
+		43E7EDC729C0A57C0005D2B0 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E7EDC629C0A57C0005D2B0 /* EmptyStateView.swift */; };
+		43E7EDC929C0A5A70005D2B0 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E7EDC829C0A5A70005D2B0 /* HomeViewModel.swift */; };
+		43E7EDCC29C0A66E0005D2B0 /* ScaleButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E7EDCB29C0A66E0005D2B0 /* ScaleButtonStyle.swift */; };
+		43F1E6B227CB9A3E005B73E7 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F1E6B127CB9A3E005B73E7 /* API.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4354CE0827CA713D002CC259 /* Floorana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Floorana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4354CE0B27CA713D002CC259 /* Floorana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floorana.swift; sourceTree = "<group>"; };
+		4354CE0D27CA713D002CC259 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4354CE0F27CA713E002CC259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4354CE1227CA713E002CC259 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		437C0F6127F5FDA700B0ABC5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		437C0F6327F6074700B0ABC5 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		437C0F6827F7579500B0ABC5 /* AddressInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressInputView.swift; sourceTree = "<group>"; };
+		437C0F6E27F9AF1300B0ABC5 /* Solana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solana.swift; sourceTree = "<group>"; };
+		43802EA62816DE2D00BB8602 /* RefreshableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableScrollView.swift; sourceTree = "<group>"; };
+		4397585D28183E4600CE7720 /* TokenDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenDetailView.swift; sourceTree = "<group>"; };
+		43A8CA6E2816F66C00FD91EB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		43A8CA7028174ADE00FD91EB /* CollectionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDetailView.swift; sourceTree = "<group>"; };
+		43E7EDC129C0A4BD0005D2B0 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		43E7EDC329C0A4F50005D2B0 /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		43E7EDC629C0A57C0005D2B0 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		43E7EDC829C0A5A70005D2B0 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		43E7EDCB29C0A66E0005D2B0 /* ScaleButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleButtonStyle.swift; sourceTree = "<group>"; };
+		43F1E6B127CB9A3E005B73E7 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		43F1E6B327CBD2A5005B73E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4354CE0527CA713D002CC259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437C0F6C27F776EE00B0ABC5 /* Base58Swift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4354CDFF27CA713D002CC259 = {
+			isa = PBXGroup;
+			children = (
+				4354CE0A27CA713D002CC259 /* Floorana */,
+				4354CE0927CA713D002CC259 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4354CE0927CA713D002CC259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4354CE0827CA713D002CC259 /* Floorana.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4354CE0A27CA713D002CC259 /* Floorana */ = {
+			isa = PBXGroup;
+			children = (
+				4390C97129BB3C6000FDB2C3 /* Core */,
+				4390C97029BB3C5B00FDB2C3 /* Views */,
+				4390C96F29BB39E300FDB2C3 /* Resources */,
+				4354CE0B27CA713D002CC259 /* Floorana.swift */,
+				4354CE1127CA713E002CC259 /* Preview Content */,
+				43A8CA7028174ADE00FD91EB /* CollectionDetailView.swift */,
+				4397585D28183E4600CE7720 /* TokenDetailView.swift */,
+			);
+			path = Floorana;
+			sourceTree = "<group>";
+		};
+		4354CE1127CA713E002CC259 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4354CE1227CA713E002CC259 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4390C96F29BB39E300FDB2C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				43A8CA6E2816F66C00FD91EB /* Launch Screen.storyboard */,
+				4354CE0F27CA713E002CC259 /* Assets.xcassets */,
+				43F1E6B327CBD2A5005B73E7 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4390C97029BB3C5B00FDB2C3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43E7EDC029C0A4AF0005D2B0 /* Extensions */,
+				43E7EDCA29C0A65F0005D2B0 /* Helpers */,
+				43E7EDC529C0A5600005D2B0 /* Home */,
+				4390C97229BB3CCA00FDB2C3 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4390C97129BB3C6000FDB2C3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				43F1E6B127CB9A3E005B73E7 /* API.swift */,
+				437C0F6E27F9AF1300B0ABC5 /* Solana.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4390C97229BB3CCA00FDB2C3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				437C0F6827F7579500B0ABC5 /* AddressInputView.swift */,
+				437C0F6127F5FDA700B0ABC5 /* SettingsView.swift */,
+				437C0F6327F6074700B0ABC5 /* SettingsManager.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		43E7EDC029C0A4AF0005D2B0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				43E7EDC129C0A4BD0005D2B0 /* Color.swift */,
+				43E7EDC329C0A4F50005D2B0 /* Numbers.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		43E7EDC529C0A5600005D2B0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4354CE0D27CA713D002CC259 /* HomeView.swift */,
+				43E7EDC829C0A5A70005D2B0 /* HomeViewModel.swift */,
+				43E7EDC629C0A57C0005D2B0 /* EmptyStateView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		43E7EDCA29C0A65F0005D2B0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				43802EA62816DE2D00BB8602 /* RefreshableScrollView.swift */,
+				43E7EDCB29C0A66E0005D2B0 /* ScaleButtonStyle.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4354CE0727CA713D002CC259 /* Floorana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4354CE1627CA713E002CC259 /* Build configuration list for PBXNativeTarget "Floorana" */;
+			buildPhases = (
+				4354CE0427CA713D002CC259 /* Sources */,
+				4354CE0527CA713D002CC259 /* Frameworks */,
+				4354CE0627CA713D002CC259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Floorana;
+			packageProductDependencies = (
+				437C0F6B27F776EE00B0ABC5 /* Base58Swift */,
+			);
+			productName = NftPortfolio;
+			productReference = 4354CE0827CA713D002CC259 /* Floorana.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4354CE0027CA713D002CC259 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4354CE0727CA713D002CC259 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4354CE0327CA713D002CC259 /* Build configuration list for PBXProject "Floorana" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4354CDFF27CA713D002CC259;
+			packageReferences = (
+				437C0F6A27F776EE00B0ABC5 /* XCRemoteSwiftPackageReference "Base58Swift" */,
+			);
+			productRefGroup = 4354CE0927CA713D002CC259 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4354CE0727CA713D002CC259 /* Floorana */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4354CE0627CA713D002CC259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A8CA6F2816F66C00FD91EB /* Launch Screen.storyboard in Resources */,
+				4354CE1327CA713E002CC259 /* Preview Assets.xcassets in Resources */,
+				4354CE1027CA713E002CC259 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4354CE0427CA713D002CC259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4397585E28183E4600CE7720 /* TokenDetailView.swift in Sources */,
+				437C0F6227F5FDA700B0ABC5 /* SettingsView.swift in Sources */,
+				43E7EDC229C0A4BD0005D2B0 /* Color.swift in Sources */,
+				437C0F6927F7579500B0ABC5 /* AddressInputView.swift in Sources */,
+				4354CE0E27CA713D002CC259 /* HomeView.swift in Sources */,
+				43E7EDC729C0A57C0005D2B0 /* EmptyStateView.swift in Sources */,
+				43E7EDCC29C0A66E0005D2B0 /* ScaleButtonStyle.swift in Sources */,
+				437C0F6427F6074700B0ABC5 /* SettingsManager.swift in Sources */,
+				43F1E6B227CB9A3E005B73E7 /* API.swift in Sources */,
+				437C0F6F27F9AF1300B0ABC5 /* Solana.swift in Sources */,
+				43E7EDC929C0A5A70005D2B0 /* HomeViewModel.swift in Sources */,
+				43E7EDC429C0A4F50005D2B0 /* Numbers.swift in Sources */,
+				4354CE0C27CA713D002CC259 /* Floorana.swift in Sources */,
+				43802EA72816DE2D00BB8602 /* RefreshableScrollView.swift in Sources */,
+				43A8CA7128174ADE00FD91EB /* CollectionDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4354CE1427CA713E002CC259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Floorana/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4354CE1527CA713E002CC259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Floorana/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4354CE1727CA713E002CC259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_ASSET_PATHS = "\"Floorana/Preview Content\"";
+				DEVELOPMENT_TEAM = 2ZQ3UF49QG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Floorana/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Floorana;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.applegends.Floorana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4354CE1827CA713E002CC259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_ASSET_PATHS = "\"Floorana/Preview Content\"";
+				DEVELOPMENT_TEAM = 2ZQ3UF49QG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Floorana/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Floorana;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.applegends.Floorana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4354CE0327CA713D002CC259 /* Build configuration list for PBXProject "Floorana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4354CE1427CA713E002CC259 /* Debug */,
+				4354CE1527CA713E002CC259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4354CE1627CA713E002CC259 /* Build configuration list for PBXNativeTarget "Floorana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4354CE1727CA713E002CC259 /* Debug */,
+				4354CE1827CA713E002CC259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		437C0F6A27F776EE00B0ABC5 /* XCRemoteSwiftPackageReference "Base58Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/keefertaylor/Base58Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		437C0F6B27F776EE00B0ABC5 /* Base58Swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 437C0F6A27F776EE00B0ABC5 /* XCRemoteSwiftPackageReference "Base58Swift" */;
+			productName = Base58Swift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4354CE0027CA713D002CC259 /* Project object */;
+}
